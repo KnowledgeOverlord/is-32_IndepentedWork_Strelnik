@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="image/x-icon" href="/images/Без назви.jpg">
+</head>
+<body>
+    <h1>Що таке HTML?</h1>
+    <hr>
+    <div style="background-image: url('/images/Без\ назви.jpg');">
+        <h1>HTML Параграфи.</h1>
+        <p>
+        Цей параграф
+        містить         багато місця
+        у вихідному коді        
+        але        браузер
+        ігнорує його.
+        </p>
+    </div>
+    
+    <hr>
+    <h1>HTML Посилання</h1>
+    <style>
+        a:link {
+          color: green;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        
+        a:visited {
+          color: pink;
+          background-color: transparent;
+         text-decoration: none;
+        }
+        
+        a:hover {
+          color: red;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        
+        a:active {
+          color: yellow;
+          background-color: transparent;
+         text-decoration: underline;
+        }
+        </style> 
+    <a href="https://www.w3schools.com/html/">HTML уроки для початківців онлайн</a> 
+  <h1>HTML Таблиці</h1>
+  <style> 
+    table,th,td{
+      width: 50%;
+      border: 3px solid blue;
+      /* border-collapse: collapse; */
+    }
+    th,td{
+      padding: 15px
+    }
+    table {
+    border-spacing: 15px;
+    background-color: gold
+    }
+  </style>
+  <table>
+    <caption>slaves</caption>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Age</th>
+      <th colspan="2">number</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+      <td>5353</td>
+      <td>2424</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+      <td>53464</td>
+      <td>2421</td>
+    </tr>
+  </table> 
+  <h2>Навігаційне меню</h2>
+<ul style="list-style-type: none; padding: 0;overflow: hidden; background-color: #333;">
+  <li style="float: left;">
+    <a href="#home" style="display: block; text-align: center; padding: 15px; color: white;">Home</a>
+  </li>
+  <li style="float: left;">
+    <a href="#news" style="display: block; text-align: center; padding: 15px; color: white;">News</a>
+  </li>
+  <li style="float: left;">
+    <a href="#contact" style="display: block; text-align: center; padding: 15px; color: white;">Contact</a>
+  </li>
+  <li style="float: left;">
+    <a href="#about" style="display: block; text-align: center; padding: 15px; color: white;">About</a>
+  </li>
+</ul>
+<h1>HTML Зображення</h1>
+<img src="/images/Без назви.jpg" alt="картинка" usemap="#pelmen">
+<map name="pelmen">
+    <area shape="default" href="https://uk.wikipedia.org/wiki/%D0%9F%D0%B5%D0%BB%D1%8C%D0%BC%D0%B5%D0%BD%D1%96" alt="пельмень">
+</map>
+<style>
+  a:hover {
+    background-color: #111;
+  }
+</style>
+</body>
+</html>
